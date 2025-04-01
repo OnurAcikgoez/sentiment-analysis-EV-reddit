@@ -5,10 +5,10 @@ This project analyzes public sentiment toward electric vehicles (EVs) by scrapin
 
 📌 Overview
 
-- **Platform:** Reddit  
-- **Focus Subreddits:** `r/cars`, `r/electricvehicles`  
-- **Data Collected:** Headlines and comments  
-- **Techniques Used:**  
+- Platform: Reddit  
+- Focus Subreddits: `r/cars`, `r/electricvehicles`  
+- Data Collected: Headlines and comments  
+- Techniques Used:  
   - Sentiment Analysis using VADER  
   - Topic Modeling using LDA (Gensim)  
   - Data Cleaning & Tokenization  
