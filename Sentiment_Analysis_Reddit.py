@@ -24,16 +24,19 @@ nltk.download("punkt_tab")
 nltk.download("vader_lexicon")
 
 # import praw
+from dotenv import load_dotenv
+import os
 import praw
 
+load_dotenv()
 
-user_agent = "EVscraper 1.0 by /u/HedgehogCultural8431"
 reddit = praw.Reddit(
-    client_id="WhiVjecBCjWuzx6PiTTp1Q",
-    client_secret="aCbMTlswoSQGBk3yOtXY3yxdV8t2Wg",
-    user_agent=user_agent,
+    client_id=os.getenv("REDDIT_CLIENT_ID"),
+    client_secret=os.getenv("REDDIT_CLIENT_SECRET"),
+    user_agent=os.getenv("REDDIT_USER_AGENT"),
     check_for_async=False
 )
+
 
 # select subreddit
 subreddit = reddit.subreddit("cars+electricvehicles")
