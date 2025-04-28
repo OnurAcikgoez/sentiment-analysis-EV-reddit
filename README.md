@@ -12,6 +12,7 @@ Due to environmental concerns and the aim for greener transportation options, EV
 
 
 Tools & Technologies
+
 Python
 PRAW (Reddit API Wrapper)
 NLTK (Natural Language Toolkit)
