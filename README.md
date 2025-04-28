@@ -10,25 +10,17 @@ Motivation
 
 Due to environmental concerns and the aim for greener transportation options, EV adoption has seen a great increase, particularly after the COVID-19 pandemic. Platforms like Reddit have become hotspots for heated EV discussions, making them valuable for exploring public sentiment towards EVs.
 
+
 Tools & Technologies
-
 Python
-
 PRAW (Reddit API Wrapper)
-
 NLTK (Natural Language Toolkit)
-
 VADER (Sentiment Analysis)
-
 Gensim (Topic Modeling)
-
 Matplotlib and Seaborn (Visualization)
-
 pyLDAvis (Interactive topic model visualization)
-
 Pandas (Data manipulation)
 
-Key Steps
 
 Data Collection:
 
