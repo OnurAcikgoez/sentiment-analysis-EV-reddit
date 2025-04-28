@@ -1,5 +1,5 @@
 
-# Reddit Sentiment Analysis on Electric Vehicles (EVs)
+# A sentiment and topic analysis of electric vehicle discussions on Reddit using Python
 
 This project analyzes public sentiment toward electric vehicles (EVs) by scraping Reddit data from relevant subreddits and applying Natural Language Processing (NLP) techniques, sentiment analysis, and topic modeling.
 
